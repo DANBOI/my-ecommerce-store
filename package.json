@@ -10,7 +10,26 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@types/node": "^18",
-    "nuxt": "^3.6.1"
+    "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxtjs/supabase": "^0.3.7",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@types/node": "^18.16.19",
+    "nuxt": "^3.6.1",
+    "nuxt-icon": "^0.4.2",
+    "nuxt-lodash": "^2.5.0",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "ts-node": "^10.9.1"
+  },
+  "overrides": {
+    "vue": "latest"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "@prisma/client": "^4.16.2",
+    "@stripe/stripe-js": "^1.54.1",
+    "pinia": "^2.1.4",
+    "prisma": "^4.16.2",
+    "stripe": "^12.11.0"
   }
 }
